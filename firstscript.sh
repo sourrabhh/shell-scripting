@@ -1,3 +1,12 @@
 #!/bin/bash
 
-echo "My name is Sourabh"
+# create a folder
+mkdir filefolder
+
+# Change a directory to filefolder
+cd filefolder
+#
+#create a two files 
+touch firstfile secondfile
+
+
