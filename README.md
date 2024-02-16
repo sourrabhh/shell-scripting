@@ -1,13 +1,12 @@
 # shell-scripting
-#!/bin/bash
-
-##########################
 # Author: Sourabh Shinde
 
 Commands used 
 set -x :: Debug Mode
 set -e :: It exits a script when there is error is script
-set -o pipefail
+          This only check the last command whether it is correct or not 
+          
+set -o pipefail :: This checks the error command even when it uses the PIPE Operator. 
 df :: Free disk space 
 
 free -g
