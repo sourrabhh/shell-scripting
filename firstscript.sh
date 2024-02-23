@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # create a folder
-mkdir filefolder
+#mkdir filefolder
 
 # Change a directory to filefolder
-cd filefolder
+#cd filefolder
 #
 #create a two files 
-touch firstfile secondfile
+#touch firstfile secondfile
 
+echo "Hello"
 
